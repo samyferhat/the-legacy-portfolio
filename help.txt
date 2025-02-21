@@ -1,0 +1,2 @@
+For 3D models use gltfjsx to transform .gltf to .glb to compress the 
+model and use the jsx file .
