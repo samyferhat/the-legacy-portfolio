@@ -1,3 +1,4 @@
+
 import Image from "next/image";
 import bg from "../../public/background/home-background.png";
 import RenderModel from "@/components/RenderModel";
