@@ -6,6 +6,10 @@ import React, { Suspense } from 'react';
 
 const RenderModel = ({ children, className }) => {
   return (
+    <>
+    {/* <button onClick={() => playAnimation("Idle")}>Animation Idle</button>
+<button onClick={() => playAnimation("Run")}>Animation Run</button> */}
+
     <Canvas
     className={clsx("w-screen h-screen -z-10 relative",className)}
     shadows={false}
@@ -17,6 +21,7 @@ const RenderModel = ({ children, className }) => {
       </Suspense>
       <Environment preset="dawn" />
     </Canvas>
+    </>
   );
 }
 

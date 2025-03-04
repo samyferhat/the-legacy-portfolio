@@ -4,7 +4,9 @@ import bg from "../../public/background/home-background.png";
 import RenderModel from "@/components/RenderModel";
 // import Wizard from "@/components/models/Wizard";
 import Navigation from "@/components/navigation";
+import { Nav } from "@/components/navigation";
 
+import Link from "next/link";
 import dynamic from "next/dynamic";
 const Wizard = dynamic(() => import("@/components/models/Wizard"), {
   ssr: false,
@@ -19,7 +21,7 @@ export default function Home() {
         src={bg}
         alt="background-image"
         fill
-        className="-z-50 w-full h-full object-cover object-center opacity-50"
+        className="-z-50 w-full h-full object-cover object-center opacity-70"
       />
 
       <div className="w-full h-screen">
@@ -27,7 +29,16 @@ export default function Home() {
         <RenderModel>
           <Wizard />
         </RenderModel>
+         {/* Footer fixe en bas */}
+      <footer className="absolute bottom-0 w-full text-center p-3 bg-black bg-opacity-20 text-white text-sm">
+        <p>&copy; 2024 Mon Nom - Tous droits réservés</p>
+        <p>
+          Modèle 3D par <Link href="/credits" target="_self" className="underline">Nom de l'Auteur</Link>
+        </p>
+      </footer>
       </div>
+      
+        
     </main>
   );
 }

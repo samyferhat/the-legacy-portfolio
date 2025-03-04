@@ -33,6 +33,14 @@ export default function RootLayout({ children }) {
         <FireFliesBackground />
         <Sound />
         <div id="my-modal" />
+          {/* Footer global */}
+          {/* Footer toujours en bas du contenu */}
+        {/* <footer className="w-full text-center p-3 bg-black bg-opacity-50 text-white text-sm">
+          <p>&copy; 2024 Mon Nom - Tous droits réservés</p>
+          <p>
+            Modèle 3D par <a href="URL_AUTEUR" target="_blank" className="underline">Nom de l'Auteur</a>
+          </p>
+        </footer> */}
       </body>
     </html>
   );
