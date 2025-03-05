@@ -2,8 +2,10 @@ import Image from "next/image";
 import bg from "../../../../public/background/about-background.jpg";
 import RenderModel from "@/components/RenderModel";
 // import HatModel from "@/components/models/HatModel";
+import TrunksNave from "@/components/models/TrunksNave";
 import AboutDetails from "@/components/about";
 import dynamic from "next/dynamic";
+import Vegeta from "@/components/models/Vegeta";
 const HatModel = dynamic(() => import("@/components/models/HatModel"), {
   ssr: false,
 });
@@ -25,7 +27,9 @@ export default function Home() {
 
       <div className="w-full h-3/5 xs:h-3/4 sm:h-screen absolute top-1/2 -translate-y-1/2 left-0 z-10">
         <RenderModel>
-          <HatModel />
+          {/* <HatModel /> */}
+          <TrunksNave />
+         {/* <Vegeta /> */}
         </RenderModel>
       </div>
 
