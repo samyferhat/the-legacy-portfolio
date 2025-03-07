@@ -31,9 +31,9 @@ export default function Home() {
         </RenderModel>
          {/* Footer fixe en bas */}
       <footer className="absolute bottom-0 w-full text-center p-3 bg-black bg-opacity-20 text-white text-sm">
-        <p>&copy; 2024 Mon Nom - Tous droits réservés</p>
+        <p>&copy; 2024 Samy - All right reserved</p>
         <p>
-          Modèle 3D par <Link href="/credits" target="_self" className="underline">Nom de l'Auteur</Link>
+          <Link href="/credits" target="_self" className="underline">3D Models Credits</Link>
         </p>
       </footer>
       </div>

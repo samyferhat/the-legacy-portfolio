@@ -12,26 +12,20 @@ const AboutDetails = () => {
           }
         >
           <h2 className="  text-xl md:text-2xl text-left w-full capitalize">
-            Architect of Enchantment
+            Developper
           </h2>
           <p className="font-light  text-xs sm:text-sm md:text-base   ">
-            My journey in web development is powered by an array of mystical
-            tools and languages, with JavaScript casting the core of my
-            enchantments. I wield frameworks like React.js and Next.js with
-            precision, crafting seamless portals (websites) that connect realms
-            (users) across the digital universe. The ancient arts of the
-            Jamstack empower me to create fast, secure, and dynamic experiences,
-            while my design skills ensure every creation is not only functional
-            but visually captivating. Join me as I continue to explore new
-            spells and technologies to shape the future of the web.
-          </p>
+          Welcome to my portfolio! I’m a passionate full-stack developer with expertise in React, FastAPI, MongoDB, and Tailwind CSS. With a strong background in software architecture, I build scalable and efficient applications, from interactive web platforms to real-time systems. My work blends performance, design, and user experience, ensuring high-quality products. Beyond development, I have a keen interest in machine learning, video editing software, and bots. Explore my projects and feel free to connect for collaboration!
+
+
+               </p>
         </ItemLayout>
 
         <ItemLayout
           className={" col-span-full xs:col-span-6 lg:col-span-4 text-accent"}
         >
           <p className="font-semibold w-full text-left text-2xl sm:text-5xl">
-            25+ <sub className="font-semibold text-base">clients</sub>
+            20+ <sub className="font-semibold text-base">Projects</sub>
           </p>
         </ItemLayout>
 
@@ -50,7 +44,7 @@ const AboutDetails = () => {
           <img
             className="w-full h-auto"
             src={`${process.env.NEXT_PUBLIC_GITHUB_STATS_URL}/api/top-langs?username=${process.env.GITHUB_USERNAME}&theme=transparent&hide_border=true&title_color=FEFE5B&text_color=FFFFFF&icon_color=FEFE5B&text_bold=false`}
-            alt="samyferhat"
+            alt="samy"
             loading="lazy"
           />
         </ItemLayout>
@@ -59,7 +53,7 @@ const AboutDetails = () => {
           <img
             className="w-full h-auto"
             src={`${process.env.NEXT_PUBLIC_GITHUB_STATS_URL}/api?username=${process.env.GITHUB_USERNAME}&theme=transparent&hide_border=true&title_color=FEFE5B&text_color=FFFFFF&icon_color=FEFE5B&text_bold=false`}
-            alt="samyferhat"
+            alt="samy"
             loading="lazy"
           />
         </ItemLayout>
@@ -67,8 +61,8 @@ const AboutDetails = () => {
         <ItemLayout className={"col-span-full"}>
           <img
             className="w-full h-auto"
-            src={`https://skillicons.dev/icons?i=appwrite,aws,babel,bootstrap,cloudflare,css,d3,docker,figma,firebase,gatsby,git,github,graphql,html,ipfs,js,jquery,kubernetes,linux,mongodb,mysql,netlify,nextjs,nodejs,npm,postgres,react,redux,replit,sass,supabase,tailwind,threejs,vercel,vite,vscode,yarn`}
-            alt="samyferhat"
+            src={`https://skillicons.dev/icons?i=babel,bootstrap,css,d3,docker,figma,firebase,git,github,html,js,jquery,linux,mongodb,mysql,netlify,nextjs,nodejs,npm,postgres,react,redux,replit,sass,tailwind,threejs,vercel,vite,vscode,yarn`}
+            alt="samy"
             loading="lazy"
           />
         </ItemLayout>
@@ -77,7 +71,7 @@ const AboutDetails = () => {
           <img
             className="w-full h-auto"
             src={`${process.env.NEXT_PUBLIC_GITHUB_STREAK_STATS_URL}?user=${process.env.GITHUB_USERNAME}&theme=dark&hide_border=true&type=svg&background=EB545400&ring=FEFE5B&currStreakLabel=FEFE5B`}
-            alt="samyferhat"
+            alt="samy"
             loading="lazy"
           />
         </ItemLayout>
@@ -91,7 +85,7 @@ const AboutDetails = () => {
             <img
               className="w-full h-auto"
               src={`${process.env.NEXT_PUBLIC_GITHUB_STATS_URL}/api/pin/?username=${process.env.GITHUB_USERNAME}&repo=meteo-du-jour-api&theme=transparent&hide_border=true&title_color=FEFE5B&text_color=FFFFFF&icon_color=FEFE5B&text_bold=false&description_lines_count=2`}
-              alt="samyferhat"
+              alt="samy"
               loading="lazy"
             />
           </Link>
