@@ -33,7 +33,7 @@ export default function Home() {
       <footer className="absolute bottom-0 w-full text-center p-3 bg-black bg-opacity-20 text-white text-sm">
         <p>&copy; 2024 Samy - All right reserved</p>
         <p>
-          <Link href="/credits" target="_self" className="underline">3D Models Credits</Link>
+          <Link href="/credits" target="_self" className="underline">3D Models Credits & Music Disclaimer</Link>
         </p>
       </footer>
       </div>
