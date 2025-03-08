@@ -119,8 +119,7 @@ const Credits = ({ children, className }) => {
 
             <div>
               <p className="font-light text-xs sm:text-sm md:text-base">
-                "Music Disclaimer: All music tracks used in this project are licensed under Creative Commons Attribution (http://creativecommons.org/licenses/by/4.0/)."
-              </p>
+              COPYRIGHT DISCLAIMER: (PLEASE READ) I DO NOT OWN DRAGONBALL. DragonBall is Owned by TOEI ANIMATION, Ltd. and Licensed by FUNimation Productions, Ltd.. All Rights Reserved. DragonBall, DragonBall Z, DragonBall GT and all logos, character names and distinctive likenesses are trademarks of TOEI ANIMATION, Ltd. Copyright Disclaimer under Section 107 of the Copyright Act 1976, allowance is made for "fair use" for purposes such as criticism, comment, news reporting, teaching, scholarship, and research. Fair use is a use permitted by copyright statute that might otherwise be infringing. Non-profit, educational or personal use tips the balance in favor of fair us. </p>
             </div>
           </div>
         </ItemLayout>
